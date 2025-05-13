@@ -1,0 +1,121 @@
+body {
+	margin:0;
+	background-color: #ffffff;
+	font-family: "Helvetica", sans-serif;
+	font-weight: 300;
+}
+
+#dash {
+	position: absolute;
+	padding: 2rem;
+	top: 2rem;
+	left: 2rem;
+	background-color: rgba(255,255,255,0.8);
+}
+
+#copy p {
+	font-size: .7rem;
+	line-height: 1.3em;
+	font-weight: normal;
+}
+
+#loading {
+	height: 100vh;
+	position: relative;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	display: flex;
+  	align-items: center;
+  	justify-content: center;
+}
+
+.aligner {
+	background-color: transparent;
+}
+
+#threejs {
+	clear: both;
+	width: 100%;
+	height: 100vh;
+	-webkit-transition: height .5s ease;
+	-moz-transition: height .5s ease;
+	-ms-transition: height .5s ease;
+	-o-transition: height .5s ease;
+	transition: height .5s ease;
+}
+
+
+select {
+	width: 100%;
+	overflow: hidden;
+	white-space: pre;
+	text-overflow: ellipsis;
+	padding: .25rem;
+  }
+  
+  option {
+	border: solid 0 #DDDDDD;
+  }
+
+label {
+	font-size: .7rem;
+	margin: .25rem 0;
+	display: block;
+}
+
+hr.foo {
+	border: .5px solid #ddd;
+	box-shadow: none;
+}
+
+.accordion {
+	background: white;
+	width: 15rem;
+}
+
+.accordion .trigger {
+	font-weight: 400;
+  	border-bottom: 1px solid #DDE0E7;
+  	cursor: pointer;
+  	transition: all .2s;
+	padding: .5rem 1rem;
+}
+
+.accordion .trigger.disabled {
+	pointer-events: none;
+	color: #ccc;
+  }
+
+.accordion .trigger:hover,
+.accordion .trigger.active {
+	background-color: lightgray;
+}
+
+.accordion .trigger.selected:before {
+	content: "•";
+	font-size: 2rem;
+	line-height: 1em;
+	float: right;
+	color: #349426;
+	margin-top: -.4rem;
+  }
+
+
+
+.accordion .content {
+	display: none;
+	border-bottom: 1px solid #DDE0E7;
+	background: #F6F7F9;
+	padding: 1.5rem;
+	color: #4a5666;
+}
+
+.accordion h5 {
+  font-size: .8rem;
+}
+
+#exhaust-color-selects {
+	display: none;
+}
